@@ -1,3 +1,11 @@
+## 0. 说明
+该项目为快速搭建Vue项目提供了一套基础模板方案，统一包含了Vue、Vuex、Vue-Router等基础组件，同时提供了其他组件的方案，请选择使用。
+
+![](https://img.shields.io/badge/Base-Vue2.2-brightgreen.svg)
+![](https://img.shields.io/badge/Build-Vue--Cli3-blue.svg)
+![](https://img.shields.io/badge/Install-Yarn-red.svg)
+
+
 ## 1. 模板列表
 - Vue+ElementUI
 - Vue+ElementUI+jQuery+Bootstrap
@@ -26,7 +34,7 @@ let location = this.COMMON.index_location;  // '/login.html'
     ```
 
     注意：使用该模板当登录页面，必须让服务器端在验证完登录后返回一个包含Token的object，该Token会被保存在浏览器LocalStroage下的`token`字段，完整的返回数据示例如下：
-    ```json
+    ```js
     {
       code: 1,
       data: {
