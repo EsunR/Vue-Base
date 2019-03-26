@@ -43,7 +43,7 @@ export default {
     loginClick() {
       this.$refs.loginForm.validate(valid => {
         if (valid) {
-          // TODO: 接入注册
+          // TODO: 接入登录
           this.axios
             .post("/login", this.loginForm)
             .then(res => {
